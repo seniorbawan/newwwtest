@@ -1,0 +1,178 @@
+ *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+body{
+	background-color: ghostwhite;
+	color: black;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: monospace;
+
+
+}
+
+form{
+	width: 70%;
+	padding: 4em;
+	border: 2px solid #efdc8b;
+	border-radius: 1em;
+	margin: 4em auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+
+}
+#form{
+	padding: 5;
+	margin: 40;
+}
+
+div{
+	margin: 0.5em;
+	font-size: 0.em;
+	padding: 0
+}
+
+#phone{
+	width: 50%;
+	font-size: 10px;
+} 
+
+#f-name{
+	width: 40%;
+	font-size: 10px;
+}
+
+#s-name{
+	width: 35%;
+	font-size: 10px;
+}
+
+#age{
+	width: 
+	30%;
+}
+#mememo{
+	font-size: 20px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#mn1{
+	font-size: 15px;
+	color: black;
+}
+#mn2{
+	font-size: 15px;
+	color: black;
+}
+#mn3{
+	font-size: 15px;
+	color: black;
+	width: 30%;
+}#mn4{
+	font-size: 15px;
+	color: black;
+}
+#mn5{
+	font-size: 15px;
+	color: black;
+}
+#MALE{
+	color: black;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#FEMALE{
+	color: black;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#meme1{
+	font-size: 15px;
+	color: black;
+}
+input{
+	background: transparent;
+	font-size: 2.em;
+	color: snow;
+	padding: .1em;
+	border-radius: 1em;
+
+}
+hr{
+	margin: .5em;
+	height: 2px;
+	border: none;
+	border-radius: 1em;
+}
+select{
+	font-size: 1em;
+	padding: .1em;
+	width: 60%;
+	border-radius: .5em ;
+}
+
+button{
+	border: none;
+	background: #0a6976;
+	font-size: 1em;
+	padding: 1em auto;
+	color: black;
+	border-radius: 10.em;
+	margin: 1em auto;
+	border: 10em;
+}
+
+#button:hover{
+	border: 3px solid red ;
+	cursor: pointer;
+	transition: all .5px ease in-out;
+	border-spacing: 30px;
+
+}
+#button{
+	color: black;
+	background: orange;
+	size: 40px;
+	font-size: 20px;
+	font-family: monospace;
+	border:3px solid blue ;
+	width: 5em;
+	border-radius: 1em;
+	color: white;
+}
+#email{
+	width: 70%;
+	font-size: 10px;
+}
+#RADIO{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#st{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#wo{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
